@@ -1,6 +1,6 @@
 {
   "name": "@mpan-wework/any-case",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert nested object to any case",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
