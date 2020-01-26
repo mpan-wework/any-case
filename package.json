@@ -1,0 +1,30 @@
+{
+  "name": "@mpan-wework/any-case",
+  "version": "0.0.1",
+  "description": "Convert nested object to any case",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpan-wework/any-case.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpan-wework/any-case/issues"
+  },
+  "homepage": "https://github.com/mpan-wework/any-case#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "change-case": "^4.1.1",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "rollup": "^1.29.1",
+    "rollup-plugin-babel": "^4.3.3"
+  }
+}
